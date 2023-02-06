@@ -1,0 +1,61 @@
+body{
+ justify-content: center;
+ align-items: center;
+ display: flex;
+ flex-direction: column;
+ min-height: 100vh;
+}
+canvas
+{
+    border: 1px solid black;
+}
+.toolbox
+{
+    width: 800px;
+    height: 470;
+    background-color: rgb(110, 197, 219);
+    border-radius: 2px;
+    display: flex;
+    flex-direction: row;
+}
+div>*
+{
+    background-color: rgb(171, 186, 68);
+    height: 50px;
+    width: 40px;
+    outline: none;
+    border: none;
+    margin: 08px;
+    color: aliceblue;
+    border-radius: 10px;
+    font-size: 1.7rem;
+    font-family: cursive;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div>button
+{
+    background-color: rgb(171, 186, 68);
+    color: aliceblue;
+    transition: 0.26s;
+
+}
+div>button:hover
+{
+    background-color: rgb(226, 58, 117);
+    color: aliceblue;
+    transform: scale(1.1);
+    
+}
+div>input{
+    background-color: aqua;
+    border-radius: 2px;
+    margin-left: 500px;
+
+}
+#eraser
+{
+   margin-left: 30px; 
+}
